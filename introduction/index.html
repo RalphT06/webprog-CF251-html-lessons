@@ -1,24 +1,184 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+  <title>Ralph Tonogbanua | Personal Profile</title>
+  <style>
+    /* Styling using HTML id and class attributes */
+    body {
+      background-color: #9b4dca; /* Purple background matching your screenshot */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #2d1b38;
+      margin: 0;
+      padding: 40px 20px;
+    }
+
+    #main-profile-card {
+      background-color: #fdf6ff;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 35px;
+      border-radius: 24px;
+      border: 4px dashed #d896ff;
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+    }
+
+    #page-title {
+      text-align: center;
+      color: #6a1b9a;
+      margin-top: 0;
+    }
+
+    .section-card {
+      background-color: #f3e5f5;
+      padding: 18px 22px;
+      margin-bottom: 20px;
+      border-radius: 16px;
+      border-left: 6px solid #9b4dca;
+    }
+
+    .sticker-badge {
+      background-color: #ffe0f7;
+      border: 2px solid #e1bee7;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 14px;
+      margin-right: 6px;
+    }
+
+    .cute-sticker-img {
+      vertical-align: middle;
+      margin-left: 6px;
+    }
+
+    .contact-link {
+      color: #7b1fa2;
+      text-decoration: none;
+      font-weight: bold;
+      background-color: #e1bee7;
+      padding: 3px 10px;
+      border-radius: 10px;
+    }
+
+    .contact-link:hover {
+      background-color: #ce93d8;
+      text-decoration: underline;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    th, td {
+      border: 2px solid #e1bee7;
+      padding: 10px 14px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #ce93d8;
+      color: #ffffff;
+    }
+
+    #gallery-box {
+      text-align: center;
+    }
+
+    .profile-photo {
+      border-radius: 18px;
+      border: 6px solid #ffffff;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
 <body>
 
-<h1>Personal Profile Web page </h1>
-<br>
+  <!-- Main container using HTML Div & id attribute -->
+  <div id="main-profile-card">
 
-<h2>About Me (Ralph Tonogbanua)</h2>
-<br> ( 20 / Contact me Email: ralphdtonogbanua@gmail.com IG: @rphael.ar)
-<br>Education / Achievements
-<br>Course: BS in Computer Science with specialization in Cyber Security and Forencics 
-<br>IT Experience
-<br>Hobbies & Interests
-<br>Goals In Life / Dream
-<br>Picture Gallery
-<p>
-<img src="My%20pic.jpg" width="550" height="650">
-</p>
-  
+    <!-- Heading with inline elements and cute image stickers -->
+    <h1 id="page-title">
+      ✨ Personal Profile Web Page ✨
+      <img class="cute-sticker-img" src="https://cdn-icons-png.flaticon.com/512/742/742751.png" alt="Cute Star Sticker" width="32" height="32">
+    </h1>
+
+    <!-- Cute Sticker Bar using Div and Inline Span elements -->
+    <div style="text-align: center; margin-bottom: 25px;">
+      <span class="sticker-badge">👾 CyberSec</span>
+      <span class="sticker-badge">🎨 Art & Design</span>
+      <span class="sticker-badge">🎮 Gaming</span>
+      <span class="sticker-badge">🐾 Cute Vibes</span>
+    </div>
+
+    <!-- About Me & Arranged Bold Labels Section -->
+    <div class="section-card">
+      <h2>
+        About Me (Ralph Tonogbanua)
+        <img class="cute-sticker-img" src="https://cdn-icons-png.flaticon.com/512/616/616430.png" alt="Cat Sticker" width="28" height="28">
+      </h2>
+      <p>
+        <b>Age:</b> 20 <br><br>
+        <b>Email:</b> <a class="contact-link" href="mailto:ralphdtonogbanua@gmail.com">📧 ralphdtonogbanua@gmail.com</a> <br><br>
+        <b>Instagram:</b> <a class="contact-link" href="https://www.instagram.com/rphael.ar" target="_blank">📸 @rphael.ar</a> <br><br>
+        <b>Education / Achievements:</b> Undergraduate Student at Asia Pacific College <br><br>
+        <b>Course:</b> BS in Computer Science with specialization in Cyber Security and Forensics
+      </p>
+    </div>
+
+    <!-- IT Experience using HTML Tables -->
+    <div class="section-card">
+      <h3>💻 IT Experience</h3>
+      <table>
+        <tr>
+          <th>Category</th>
+          <th>Skills & Tools</th>
+        </tr>
+        <tr>
+          <td><b>Programming</b></td>
+          <td>Python, Java, C, Luau, HTML & CSS</td>
+        </tr>
+        <tr>
+          <td><b>Systems & Databases</b></td>
+          <td>MySQL, Linux Administration, Networking</td>
+        </tr>
+        <tr>
+          <td><b>Design & Prototyping</b></td>
+          <td>UI/UX Design, Android Studio, Blender</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Hobbies & Goals using HTML Lists (ul & ol) -->
+    <div class="section-card">
+      <h3>🎨 Hobbies & Interests</h3>
+      <ul>
+        <li><b>Visual Arts:</b> Traditional painting and digital design</li>
+        <li><b>Gaming & Dev:</b> Playing PC games and scripting in Roblox Studio</li>
+        <li><b>Fitness & Culinary:</b> Strength training and exploring ube pastry recipes</li>
+      </ul>
+
+      <h3>🌟 Goals In Life / Dream</h3>
+      <ol>
+        <li><b>Career:</b> Become a specialized Cybersecurity and Digital Forensics professional</li>
+        <li><b>Innovation:</b> Build secure, accessible software that helps local communities</li>
+      </ol>
+    </div>
+
+    <!-- Picture Gallery using HTML Images -->
+    <div id="gallery-box" class="section-card">
+      <h3>📸 Picture Gallery</h3>
+      <p>
+        <img class="profile-photo" src="My%20pic.jpg" alt="Ralph Tonogbanua Profile Picture" width="450" height="530">
+      </p>
+    </div>
+
+  </div>
+
 </body>
 </html>
