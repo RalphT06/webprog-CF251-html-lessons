@@ -1,6 +1,6 @@
 body {
   background-color: rgb(182, 124, 224);
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Rubik', 'Nunito', 'Quicksand', sans-serif;
   color: #4a3b5c;
   padding: 40px 20px;
 
@@ -9,6 +9,4 @@ body {
 h1 {
   color: navy;
   text-align: center;
-  font-family: 'Rubik', 'Nunito', 'Quicksand', sans-serif;
-
 }
