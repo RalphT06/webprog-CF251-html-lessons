@@ -55,6 +55,7 @@ h3 {
 .info strong, .experience table, .hobby ul, .gallery p {
   font-weight: normal;
   position: relative; 
+  min-height: 192px;
 }
 
 table {
