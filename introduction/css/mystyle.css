@@ -7,11 +7,99 @@ body {
 }
 
 h1 {
-  color: rgb(0, 0, 0);
+  color: #ffffff;
   text-align: center;
+  text-shadow: 1px 2px 4px rgba(0,0,0,0.2);
+  margin-bottom: 5px;
 }
 
 h2 {
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
+  color: #ffffff;
+  letter-spacing: 2px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+h3 {
+  margin-top: 0;
+  color: #4a2e6b;
+  font-size: 1.3em;
+}
+
+.info, .experience, .hobby, .goal, .gallery {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  border-top: 5px solid #4a2e6b; 
+  font-weight: bold;
+}
+
+.info strong, .experience table, .hobby ul, .gallery p {
+  font-weight: normal;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #e0e0e0;
+  padding: 14px;
+  text-align: center;
+}
+
+th {
+  background-color: #4a2e6b;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f7fb;
+}
+
+tr:hover {
+  background-color: #eee6f5;
+}
+
+a {
+  color: #4a2e6b;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+ul {
+  margin-top: 15px;
+  padding-left: 25px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 20px auto 0;
+  object-fit: cover;
 }
