@@ -42,17 +42,19 @@ h3 {
   position: relative;
 }
 
+
 .profile-pic {
   position: absolute;
   top: 30px;
   right: 30px;
   object-fit: cover;
-  border-radius: 8px; /* Matches your gallery image style */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Matches your gallery image style */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .info strong, .experience table, .hobby ul, .gallery p {
   font-weight: normal;
+  position: relative; 
 }
 
 table {
