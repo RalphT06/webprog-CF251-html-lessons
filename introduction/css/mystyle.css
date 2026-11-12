@@ -1,9 +1,13 @@
 body {
   background-color: rgb(182, 124, 224);
-  font-family: 'Rubik', 'Nunito', 'Quicksand', sans-serif;
+  background-image: linear-gradient(135deg, rgb(182, 124, 224) 0%, rgb(143, 85, 189) 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #2d2a30;
   padding: 40px 20px;
-
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  min-height: 100vh;
 }
 
 h1 {
@@ -14,7 +18,7 @@ h1 {
 }
 
 h2 {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   color: #ffffff;
   letter-spacing: 2px;
@@ -38,16 +42,21 @@ h3 {
   font-weight: bold;
 }
 
-.profile-pic {
-  width: 150px;       /* Keeps it perfectly square */
-  height: 150px;      /* Keeps it perfectly square */
-  object-fit: cover;  /* Prevents the image from stretching if it's not a perfect square */
-  border-radius: 8px; /* Matches the rounded corners of your boxes */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  margin-left: 20px;  /* Adds breathing room between the text and the picture */
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
 }
 
-.info strong, .experience table, .hobby ul, .gallery p {
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+
+.info div strong, .experience table, .hobby ul, .gallery p {
   font-weight: normal;
 }
 
