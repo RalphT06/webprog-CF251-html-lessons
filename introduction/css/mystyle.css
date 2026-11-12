@@ -1,12 +1,16 @@
 body {
   background-color: rgb(182, 124, 224);
   font-family: 'Rubik', 'Nunito', 'Quicksand', sans-serif;
-  color: #4a3b5c;
+  color: #2d2a30;
   padding: 40px 20px;
 
 }
 
 h1 {
   color: navy;
+  text-align: center;
+}
+
+h2 {
   text-align: center;
 }
