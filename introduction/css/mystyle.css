@@ -1,5 +1,9 @@
 body {
   background-color: rgb(182, 124, 224);
+  font-family:'Courier New', Courier, monospace;
+  color: #4a3b5c;
+  padding: 40px 20px;
+
 }
 
 h1 {
