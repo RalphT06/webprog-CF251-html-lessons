@@ -38,6 +38,15 @@ h3 {
   font-weight: bold;
 }
 
+.profile-pic {
+  width: 150px;       /* Keeps it perfectly square */
+  height: 150px;      /* Keeps it perfectly square */
+  object-fit: cover;  /* Prevents the image from stretching if it's not a perfect square */
+  border-radius: 8px; /* Matches the rounded corners of your boxes */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-left: 20px;  /* Adds breathing room between the text and the picture */
+}
+
 .info strong, .experience table, .hobby ul, .gallery p {
   font-weight: normal;
 }
