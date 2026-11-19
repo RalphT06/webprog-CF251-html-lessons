@@ -1,0 +1,16 @@
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #000000;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+}
+ 
+.container2 div {
+  display: flex;
+}
+
+.container2 div img {
+  object-fit: cover;
+}
